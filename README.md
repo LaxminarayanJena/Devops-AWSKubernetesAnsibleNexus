@@ -18,14 +18,17 @@ i to insert. Esc to go back to command mode, :wq to save and quit. </br>
 service sshd restart  </br>
 
 
-## Install java   
-yum install java-1.8*  </br>
+## Install java  
 
-vi .bash_profile  </br>
+```
+yum install java-1.8*  
+vi .bash_profile  
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64
+export JAVA_HOME 
+PATH=$PATH:$JAVA_HOME 
 
-JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64. </br>
-export JAVA_HOME </br>
-PATH=$PATH:$JAVA_HOME </br>
+```
+
 
 
 echo $PATH </br>
