@@ -18,7 +18,7 @@ i to insert. Esc to go back to command mode, :wq to save and quit. </br>
 service sshd restart  </br>
 
 
-----------------java ----  </br>
+## Install java   
 yum install java-1.8*  </br>
 
 vi .bash_profile  </br>
@@ -30,7 +30,7 @@ PATH=$PATH:$JAVA_HOME </br>
 
 echo $PATH </br>
 
---jenkins--- </br>
+## Install Jenkins
 yum -y install wget </br>
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo  </br>
 rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key  </br>
