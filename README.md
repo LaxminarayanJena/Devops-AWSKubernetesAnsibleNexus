@@ -41,3 +41,16 @@ yum install jenkins -y  </br>
 
 
 find / -name javac  </br>
+## Install maven  
+
+```
+cd /opt
+mkdir maven
+ls
+cd maven
+wget http://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+tar -xvzf apache-maven-3.6.3-bin.tar.gz
+cd  apache-maven-3.6.3
+
+
+```
