@@ -69,4 +69,15 @@ yum install git -y
 cd /opt
 wget http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.tar.gz
 tar -xvzf apache-tomcat-8.5.50.tar.gz
+cd apache-tomcat-8.5.50
+cd bin
+ps -ef | grep tomcat
+ls -ltr
+chmod +x startup.sh
+chmod +x shutdown.sh
+pwd
+
+echo $PATH
+ln -s /opt/apache-tomcat-8.5.50/bin/startup.sh /usr/sbin/tomcatup
+ln -s /opt/apache-tomcat-8.5.50/bin/startup.sh /usr/sbin/tomcatdown
 ```
