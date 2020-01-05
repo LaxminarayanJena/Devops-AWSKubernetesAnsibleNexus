@@ -34,12 +34,14 @@ PATH=$PATH:$JAVA_HOME
 echo $PATH </br>
 
 ## Install Jenkins
+```
 yum -y install wget </br>
-wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo  </br>
-rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key  </br>
-yum install jenkins -y  </br>
+wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo  
+rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key 
+yum install jenkins -y  
 systemctl start jenkins
-
+cat /var/lib/jenkins/secrets/initialAdminPassword
+```
 find / -name javac  </br>
 ## Install maven  
 
