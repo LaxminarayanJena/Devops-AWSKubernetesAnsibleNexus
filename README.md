@@ -63,3 +63,10 @@ PATH=$PATH:$JAVA_HOME:$M2_HOME:$HOME/bin
 ```
 yum install git -y
 ```
+## Install Tomcat 
+
+```
+cd /opt
+wget http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.tar.gz
+tar -xvzf apache-tomcat-8.5.50.tar.gz
+```
