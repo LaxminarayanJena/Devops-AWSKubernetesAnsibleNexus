@@ -38,7 +38,7 @@ yum -y install wget </br>
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo  </br>
 rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key  </br>
 yum install jenkins -y  </br>
-
+systemctl start jenkins
 
 find / -name javac  </br>
 ## Install maven  
