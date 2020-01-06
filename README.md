@@ -23,7 +23,7 @@ service sshd restart  </br>
 ```
 yum install java-1.8*  
 vi .bash_profile  
-JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
 export JAVA_HOME 
 PATH=$PATH:$JAVA_HOME 
 
